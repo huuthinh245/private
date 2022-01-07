@@ -1,0 +1,17 @@
+diff --git a/node_modules/stream-chat-react-native-core/src/components/Message/MessageSimple/MessageSimple.tsx b/node_modules/stream-chat-react-native-core/src/components/Message/MessageSimple/MessageSimple.tsx
+index 126b016..9b27256 100644
+--- a/node_modules/stream-chat-react-native-core/src/components/Message/MessageSimple/MessageSimple.tsx
++++ b/node_modules/stream-chat-react-native-core/src/components/Message/MessageSimple/MessageSimple.tsx
+@@ -142,12 +142,6 @@ const areEqual = <
+   const groupStylesEqual = JSON.stringify(prevGroupStyles) === JSON.stringify(nextGroupStyles);
+   if (!groupStylesEqual) return false;
+ 
+-  const messageEqual =
+-    prevMessage.deleted_at === nextMessage.deleted_at &&
+-    prevMessage.status === nextMessage.status &&
+-    prevMessage.type === nextMessage.type &&
+-    prevMessage.text === nextMessage.text;
+-  if (!messageEqual) return false;
+ 
+   const quotedMessageEqual =
+     prevMessage.quoted_message?.id === nextMessage.quoted_message?.id &&

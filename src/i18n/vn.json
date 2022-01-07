@@ -1,0 +1,15 @@
+{
+  "common": {
+    "ok": "OK!",
+    "cancel": "Cancel",
+    "back": "Trở về"
+  },
+  "errors": {
+    "invalidEmail": "Invalid email address."
+  },
+  "welcomeScreen": {
+    "helloWorld": "Xin chào",
+    "readyForLaunch": "Ready for launch.",
+    "continue": "CONTINUE"
+  }
+}
